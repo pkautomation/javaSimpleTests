@@ -16,6 +16,9 @@ public class Streets {
 
     public static void main(String[] arg) {
         System.out.println(Streets.rideTo(4));
+        RegexExtract.PrintRegex("15MAR2019");
+        RegexExtract.PrintRegex("a15MAR2019a");
+        RegexExtract.PrintRegex("a15AR2019a");
     }
 }
 
